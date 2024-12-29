@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({ text, onClick, className, variant = "pr
       shadow: "bg-[#9CEDE9]",
     },
     secondary: {
-      bg: "bg-[#000E1E]",
+      bg: "bg-transparent",
       text: "text-[#9CEDE9]",
       hoverText: "group-hover:bg-[#9CEDE9] group-hover:text-[#005F73]",
       border: "border-[0.1rem] border-2 border-[#9CEDE9] group-hover:border-[#005F73]",
